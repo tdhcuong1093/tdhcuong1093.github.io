@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+.hidden {
+  opacity:0;
+}
+.console-container {
+  font-family:Khula;
+  font-size:2em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:100px;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.console-underscore {
+  display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+.movie {
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	}
+
+body {
+	display: table;
+	height:100%;
+	width: 100%;
+	overflow: hidden;
+	background-image: url("background.jpg");
+}
