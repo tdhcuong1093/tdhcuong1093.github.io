@@ -1,6 +1,16 @@
-// function([string1, string2],target id,[color1,color2])    
- $(document).ready(function() {
-    consoleText(['Made With Love', 'God Bless You All'], 'text',['tomato', 'lightblue']);
+$(document).ready(function() {
+    consoleText(['I was made to love you!', 'I was made to find you!', 'And I was made just for you!'], 'text',['red', 'green', 'yellow']);
+	var mouseX, mouseY;
+	var ww = $( window ).width();
+	var wh = $( window ).height();
+	var traX, traY;
+	$(document).mousemove(function(e){
+		mouseX = e.pageX;
+		mouseY = e.pageY;
+		traX = ((4 * mouseX) / 570) + 40;
+		traY = ((4 * mouseY) / 570) + 50;
+		$(".title").css({"background-position": traX + "%" + traY + "%"});
+  });
 });
 
 function consoleText(words, id, colors) {
