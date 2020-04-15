@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    consoleText(['I was made to love you!', 'I was made to find you!', 'And I was made just for you!'], 'text',['red', 'lime', 'yellow']);
 	var mouseX, mouseY;
 	var ww = $( window ).width();
 	var wh = $( window ).height();
@@ -10,7 +9,8 @@ $(document).ready(function() {
 		traX = ((4 * mouseX) / 570) + 40;
 		traY = ((4 * mouseY) / 570) + 50;
 		$(".title").css({"background-position": traX + "%" + traY + "%"});
-  });
+	});
+	consoleText(['I was made to love you!', 'I was made to find you!', 'And I was made just for you!'], 'text',['red', 'lime', 'yellow']);
 });
 
 function consoleText(words, id, colors) {
