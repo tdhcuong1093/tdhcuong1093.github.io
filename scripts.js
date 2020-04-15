@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    consoleText(['I was made to love you!', 'I was made to find you!', 'And I was made just for you!'], 'text',['red', 'green', 'yellow']);
+    consoleText(['I was made to love you!', 'I was made to find you!', 'And I was made just for you!'], 'text',['#red', 'lime', 'yellow']);
 	var mouseX, mouseY;
 	var ww = $( window ).width();
 	var wh = $( window ).height();

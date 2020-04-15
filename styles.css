@@ -39,6 +39,12 @@ body {
 	overflow: hidden;
 	background-image: url("background.jpg");
 	font-family: 'Raleway', sans-serif;
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
@@ -57,4 +63,5 @@ html{
   position:relative;
   text-align:center;
   letter-spacing: -8px;
+  margin-top: 10px;
 }
