@@ -40,6 +40,9 @@ body {
 	background-image: url("background.jpg");
 	font-family: 'Raleway', sans-serif;
 	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
 	background-size:cover;
 	background-position:center;
 }
