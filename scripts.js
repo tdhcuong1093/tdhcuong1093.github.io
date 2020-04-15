@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	if(!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
+		console.log("dcmm")
 		var mouseX, mouseY;
 		var ww = $( window ).width();
 		var wh = $( window ).height();
